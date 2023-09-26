@@ -1,0 +1,100 @@
+/* style.css */
+body{
+    margin: 0;
+    padding: 0;
+}
+.questions {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    padding-top: 40px;
+    gap: 28px;
+    background-color: antiquewhite;
+}
+.question{
+    background-color: rgba(57, 165, 165, 0.582);
+    padding: 4px 16px;
+    border-radius: 28px;
+}
+
+.question-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    height: max-content;
+}
+
+.btn {
+    background: none;
+    width: 23px;
+    border: none;
+    cursor: alias;
+}
+.btns{
+    display: flex;
+}
+
+.plus-btn,
+.minus-btn {
+    height: 22px;
+    width: 22px;
+    display: flex;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+}
+
+.plus-btn {
+    background-color: green;
+    color: white;
+}
+
+.minus-btn {
+    background-color: red;
+    color: white;
+}
+
+.section-center {
+    max-width: 600px;
+    margin: 0 auto;
+    height: max-content;
+}
+.plus-btn:hover{
+    color: black;
+    transition: 0.3s;
+}
+.minus-btn:hover{
+    color: blue;
+    transition: 0.3s;
+}
+.title{
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-style: oblique;
+}
+.details{
+    letter-spacing: 0.5px;
+    text-align: justify;
+    font-family: sans-serif;
+    font-size: 15.5px;
+}
+.show-text{
+    display: inline;
+}
+.show-text{
+    display: none;
+}
+
+.minus-btn{
+    display: inline;
+}
+.minus-btn{
+    display: none;
+}
+
+
+/* Additional styles can be added as needed */
